@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "PhotoApp",
-    "slug": "PhotoApp",
+    "slug": "photoapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2d441940-846e-48e0-a217-1b51a7a89e28"
+      }
+    },
+    "owner": "hariniaina"
   }
 }
